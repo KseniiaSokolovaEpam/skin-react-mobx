@@ -77,8 +77,8 @@ OO.plugin('Html5Skin', function(OO) {
 
     createProvider: function(elementId) {
       const Root = (
-        <div className="oo-player-container">
-          <div className="innerWrapper oo-player oo-video-player"></div>
+        <div className='oo-player-container'>
+          <div className='innerWrapper oo-player oo-video-player'></div>
           <Provider ScreenStore={ScreenStore} PlayerStore={PlayerStore}>
             <Player />
           </Provider>
