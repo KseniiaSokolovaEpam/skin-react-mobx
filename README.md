@@ -1,11 +1,11 @@
-##Start server (on localhost:8000) :
+## Start server (on localhost:8000) :
 Copy pithon server to file "server.py", <br/>
 
 Use command: 
 ### ` server.py `
 to start the server
 
-###Pithon server:
+### Pithon server:
 
 ```python
 import SimpleHTTPServer
@@ -70,7 +70,7 @@ if __name__ == "__main__":
     httpd.serve_forever()
 ```
 
-##Install packages:
+## Install packages:
 ### `npm install`
 ## Build js and css files:
 ### `npm run build`
