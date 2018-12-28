@@ -1,4 +1,4 @@
-##Start server (on localhost:8000)
+##Start server (on localhost:8000) :
 Copy pithon server to file "server.py", <br/>
 
 Use command: 
@@ -70,9 +70,10 @@ if __name__ == "__main__":
     httpd.serve_forever()
 ```
 
-
-## Build html5-skin.js
+##Install packages:
+### `npm install`
+## Build js and css files:
 ### `npm run build`
 
-## Use your html file or debug page
+## Use your html file or debug page:
 [Example](http://debug.ooyala.com/ea/index.html?ec=lmOGd1ZDE6MhK0I_Lw3IGeRHyksy_8np&pbid=242f532f58ad4b2e9192f84fd4ff727d&pcode=pyaDkyOqdnY0iQC2sTO4JeaXggl9&core_player=%2F%2Fplayer.ooyala.com%2Fstatic%2Fv4%2Fcandidate%2Flatest%2Fcore.min.js&video_plugins=%2F%2Fplayer.ooyala.com%2Fstatic%2Fv4%2Fcandidate%2Flatest%2Fvideo-plugin%2Fmain_html5.min.js&html5_skin=%2F%2Flocalhost%3A8000%2Fprojects%2Fskin-react-mobx%2Fbuild%2Fhtml5-skin.js&skin_asset=%2F%2Flocalhost%3A8000%2Fprojects%2Fskin-react-mobx%2Fbuild%2Fhtml5-skin.css&skin_config=%2F%2Fraw.githubusercontent.com%2FPlaybackWebTest%2FJsonFiles%2FPlayerSkin%2Fskin-default.json&trackingLevel=unset)
